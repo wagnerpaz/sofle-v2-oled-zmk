@@ -57,7 +57,7 @@ layers:
   - {t: Ctl+Z, h: lower}
   - RET
   - SPACE
-  - BACKSPACE
+  - {t: BACKSPACE, h: raise}
   - RIGHT SHIFT
   - RALT
   - RGUI
@@ -179,7 +179,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&sys_reset'
-  - {t: ▽, type: trans}
+  - {type: held}
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -240,7 +240,7 @@ layers:
   - {type: held}
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
