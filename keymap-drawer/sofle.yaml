@@ -1,7 +1,66 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
-  default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '`', TAB, Q, W, E, R, T, Y, U, I, O, P, '''', LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, RIGHT
-      SHIFT, LEFT CONTROL, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RIGHT CONTROL, LGUI, LALT, lower, DELETE, RET, SPACE, BACKSPACE, raise, RALT, RGUI]
+  default:
+  - ESCAPE
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '`'
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ''''
+  - LEFT SHIFT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - RIGHT SHIFT
+  - LEFT CONTROL
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - MUTE
+  - ''
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RIGHT CONTROL
+  - LEFT ALT
+  - LEFT WIN
+  - LEFT SHIFT
+  - {t: Ctl+Z, h: lower}
+  - RET
+  - SPACE
+  - BACKSPACE
+  - RIGHT SHIFT
+  - RALT
+  - RGUI
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -55,8 +114,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - '&bootloader'
+  - {t: ▽, type: trans}
+  - {t: '&bootloader', type: held}
   - '&sys_reset'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -121,7 +180,7 @@ layers:
   - {t: ▽, type: trans}
   - '&sys_reset'
   - '&bootloader'
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   adjust:
@@ -177,11 +236,11 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
-  - ''
-  - ''
-  - ''
   - ''
   - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
