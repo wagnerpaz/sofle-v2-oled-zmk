@@ -121,7 +121,7 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp 0 0>,
+                <&inc_dec_kp F8 LS(F8)>,
                 <&inc_dec_kp LS(LA(RIGHT_ARROW)) LS(LA(LEFT_ARROW))>;
         };
     };
