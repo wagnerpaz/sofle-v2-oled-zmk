@@ -47,7 +47,9 @@
                           &kp LEFT_ALT  &kp LEFT_WIN  &lt 4 DELETE  &lt 1 RC(Z)  &kp RET       &kp SPACE  &lt 2 BACKSPACE  &kp RIGHT_SHIFT  &kp RALT   &kp RGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>,
+                <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         lower_layer {
