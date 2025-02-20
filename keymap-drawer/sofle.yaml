@@ -305,3 +305,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [27, 28]
+  k: Ctl+C
+- p: [31, 32]
+  k: Ctl+V
+- p: [30, 31]
+  k: HOME
+- p: [32, 33]
+  k: END
