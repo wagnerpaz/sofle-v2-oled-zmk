@@ -54,13 +54,13 @@ layers:
   - LEFT ALT
   - LEFT WIN
   - {t: DELETE, h: '4'}
-  - {t: Ctl+Z, h: lower}
+  - {t: Ctl+C, h: lower}
   - RET
   - SPACE
-  - {t: BACKSPACE, h: raise}
-  - RIGHT SHIFT
-  - RALT
-  - RGUI
+  - {t: Ctl+V, h: raise}
+  - BACKSPACE
+  - RIGHT GUI
+  - RIGHT ALT
   lower:
   - {t: ▽, type: trans}
   - F1
