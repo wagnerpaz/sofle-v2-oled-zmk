@@ -54,7 +54,7 @@ layers:
   - LEFT ALT
   - LEFT WIN
   - {t: DELETE, h: '4'}
-  - {t: Ctl+C, h: lower}
+  - {t: Ctl+S, h: lower}
   - RET
   - SPACE
   - {t: Ctl+Z, h: raise}
@@ -273,7 +273,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Sft+K
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -307,10 +307,12 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [27, 28]
-  k: Ctl+S
+  k: Ctl+C
 - p: [30, 31]
   k: HOME
 - p: [32, 33]
   k: END
 - p: [15, 16]
   k: Ctl+SPACE
+- p: [28, 29]
+  k: Ctl+V
