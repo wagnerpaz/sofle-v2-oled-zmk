@@ -86,7 +86,7 @@ layers:
   - '9'
   - '0'
   - F12
-  - Ctl+V
+  - {t: ▽, type: trans}
   - '!'
   - '@'
   - '#'
@@ -308,7 +308,7 @@ layers:
 combos:
 - p: [27, 28]
   k: Ctl+C
-- p: [30, 31]
+- p: [31, 32]
   k: HOME
 - p: [32, 33]
   k: END
@@ -316,3 +316,7 @@ combos:
   k: Ctl+SPACE
 - p: [28, 29]
   k: Ctl+V
+- p: [19, 20]
+  k: PAGE UP
+- p: [20, 21]
+  k: PAGE DOWN
