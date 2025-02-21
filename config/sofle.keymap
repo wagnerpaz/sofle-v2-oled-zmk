@@ -66,7 +66,7 @@
         secret_1: secret_1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp W &kp N0 &kp P &kp UNDER &kp N1 &kp N9 &kp N8 &kp N6>;
+            bindings = <&kp W &kp N0 &kp P &kp UNDER &kp UNDER &kp N1 &kp N9 &kp N8 &kp N6>;
             label = "SECRET_1";
         };
     };
