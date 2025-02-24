@@ -112,7 +112,7 @@ layers:
   - ':'
   - \
   - {t: ▽, type: trans}
-  - Ctl+Sft+K
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BACKSPACE
   - {t: ▽, type: trans}
@@ -271,8 +271,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Alt+LEFT ARROW
+  - Sft+Alt+RIGHT ARROW
   - Ctl+Sft+K
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
