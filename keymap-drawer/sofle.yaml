@@ -113,8 +113,8 @@ layers:
   - \
   - {t: ▽, type: trans}
   - Ctl+Sft+K
+  - {t: ▽, type: trans}
   - BACKSPACE
-  - '&bootloader'
   - {t: ▽, type: trans}
   - '&sys_reset'
   - {t: ▽, type: trans}
