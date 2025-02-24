@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - '`'
-  - TAB
+  - {t: TAB, h: lower}
   - Q
   - W
   - E
@@ -74,7 +74,7 @@ layers:
   - F9
   - F10
   - F11
-  - '`'
+  - {t: '`', type: held}
   - '1'
   - '2'
   - '3'
@@ -112,10 +112,10 @@ layers:
   - ':'
   - \
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Sft+K
+  - BACKSPACE
   - '&bootloader'
-  - {type: held}
+  - {t: ▽, type: trans}
   - '&sys_reset'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -196,7 +196,7 @@ layers:
   - ''
   - ''
   - ''
-  - EP TOG
+  - {t: EP TOG, type: held}
   - ''
   - ''
   - ''
@@ -237,7 +237,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - {type: held}
