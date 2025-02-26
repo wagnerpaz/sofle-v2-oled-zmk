@@ -54,7 +54,7 @@ layers:
   - LEFT ALT
   - LEFT WIN
   - {t: DELETE, h: '4'}
-  - {t: Ctl+S, h: lower}
+  - lower
   - RET
   - SPACE
   - raise
@@ -75,18 +75,6 @@ layers:
   - F10
   - F11
   - {t: '`', type: held}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - F12
-  - {t: ▽, type: trans}
   - '!'
   - '@'
   - '#'
@@ -94,20 +82,32 @@ layers:
   - '%'
   - ^
   - '&'
-  - KP MULTIPLY
+  - '*'
+  - (
+  - )
+  - F12
+  - {t: ▽, type: trans}
+  - '='
+  - '-'
+  - +
+  - '{'
+  - '}'
+  - ^
+  - '&'
+  - '*'
   - (
   - )
   - '|'
   - {t: ▽, type: trans}
-  - '='
-  - '-'
-  - KP PLUS
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - _
+  - '&caps_word'
   - '['
   - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
   - ;
   - ':'
   - \
