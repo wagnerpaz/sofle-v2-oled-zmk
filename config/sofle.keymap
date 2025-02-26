@@ -93,6 +93,13 @@
             bindings = <&kp EQUAL &kp GT>;
             label = "ARROW_FUNC";
         };
+
+        vscode_pin: vscode_pin {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(K) &kp LS(ENTER)>;
+            label = "VSCODE_PIN";
+        };
     };
 
     keymap {
@@ -182,18 +189,20 @@
             >;
         };
 
-        layer_4 {
+        editor {
             bindings = <
-&trans  &trans  &trans                  &trans                   &trans         &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans                  &trans                   &trans         &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LS(LA(LEFT_ARROW))  &kp LS(LA(RIGHT_ARROW))  &kp LC(LS(K))  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans                  &trans                   &trans         &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans                  &trans                   &trans         &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans                  &trans                   &trans         &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans                  &trans                   &trans         &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &vscode_pin  &kp LS(LA(LEFT_ARROW))  &kp LS(LA(RIGHT_ARROW))  &kp LC(LS(K))  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans                  &trans                   &trans         &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                     &trans                  &trans                   &trans         &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
                 <&inc_dec_kp F8 LS(F8)>,
                 <&inc_dec_kp LS(LA(RIGHT_ARROW)) LS(LA(LEFT_ARROW))>;
+
+            label = "editor";
         };
     };
 };
