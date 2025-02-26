@@ -68,6 +68,11 @@
             bindings = <&kp LG(V)>;
             key-positions = <28 41>;
         };
+
+        refresh {
+            bindings = <&kp LC(R)>;
+            key-positions = <3 4>;
+        };
     };
 
     macros {
