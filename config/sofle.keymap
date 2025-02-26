@@ -63,6 +63,11 @@
             bindings = <&kp PAGE_DOWN>;
             key-positions = <20 21>;
         };
+
+        win_paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <28 41>;
+        };
     };
 
     macros {
