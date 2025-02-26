@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - ''''
-  - LEFT SHIFT
+  - {t: LEFT SHIFT, h: sticky}
   - A
   - S
   - D
