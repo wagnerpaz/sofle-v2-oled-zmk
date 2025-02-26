@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
   default:
-  - ESCAPE
+  - {t: ESC, s: '`'}
   - '1'
   - '2'
   - '3'
@@ -36,7 +36,7 @@ layers:
   - K
   - L
   - ;
-  - RIGHT SHIFT
+  - {t: RIGHT SHIFT, h: sticky}
   - LEFT CONTROL
   - Z
   - X
@@ -50,7 +50,7 @@ layers:
   - ','
   - .
   - /
-  - RIGHT CONTROL
+  - {t: RIGHT CONTROL, h: sticky}
   - LEFT ALT
   - LEFT WIN
   - {t: DELETE, h: '4'}
@@ -62,7 +62,7 @@ layers:
   - RIGHT GUI
   - RIGHT ALT
   lower:
-  - {t: ▽, type: trans}
+  - '&caps_word'
   - F1
   - F2
   - F3
@@ -101,12 +101,12 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - _
-  - '&caps_word'
+  - ''
   - '['
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - '&arrow_func'
   - ''
   - ;
   - ':'
@@ -125,7 +125,7 @@ layers:
   raise:
   - ''
   - '&run_dev'
-  - ''
+  - '&console_log'
   - ''
   - ''
   - ''
