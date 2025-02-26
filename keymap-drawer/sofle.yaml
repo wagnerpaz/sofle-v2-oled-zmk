@@ -320,3 +320,5 @@ combos:
   k: PAGE UP
 - p: [20, 21]
   k: PAGE DOWN
+- p: [28, 41]
+  k: Gui+V
