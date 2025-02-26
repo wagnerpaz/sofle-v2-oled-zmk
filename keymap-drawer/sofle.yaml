@@ -322,3 +322,5 @@ combos:
   k: PAGE DOWN
 - p: [28, 41]
   k: Gui+V
+- p: [3, 4]
+  k: Ctl+R
