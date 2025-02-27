@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - '`'
-  - {t: TAB, h: lower}
+  - TAB
   - Q
   - W
   - E
@@ -74,7 +74,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: '`', type: held}
+  - '`'
   - '!'
   - '@'
   - '#'
@@ -115,7 +115,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BACKSPACE
-  - {t: ▽, type: trans}
+  - {type: held}
   - '&sys_reset'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -196,7 +196,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: EP TOG, type: held}
+  - EP TOG
   - ''
   - ''
   - ''
@@ -237,7 +237,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - {type: held}
