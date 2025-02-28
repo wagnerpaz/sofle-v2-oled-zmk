@@ -324,3 +324,7 @@ combos:
   k: Gui+V
 - p: [3, 4]
   k: Ctl+R
+- p: [46, 47]
+  k: Ctl+END
+- p: [45, 46]
+  k: Ctl+HOME
