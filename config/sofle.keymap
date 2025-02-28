@@ -73,6 +73,16 @@
             bindings = <&kp LC(R)>;
             key-positions = <3 4>;
         };
+
+        ctrl_end {
+            bindings = <&kp LC(END)>;
+            key-positions = <46 47>;
+        };
+
+        ctrl_home {
+            bindings = <&kp LC(HOME)>;
+            key-positions = <45 46>;
+        };
     };
 
     macros {
