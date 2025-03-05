@@ -212,7 +212,7 @@
         editor {
             bindings = <
 &trans  &trans       &trans                    &trans                     &trans         &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans       &kp LC(LS(LEFT_BRACKET))  &kp LC(LS(RIGHT_BRACKET))  &trans         &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LA(X)    &kp LC(LS(LEFT_BRACKET))  &kp LC(LS(RIGHT_BRACKET))  &kp LA(A)      &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &vscode_pin  &kp LS(LA(LEFT_ARROW))    &kp LS(LA(RIGHT_ARROW))    &kp LC(LS(K))  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans       &trans                    &trans                     &trans         &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                      &trans                    &trans                     &trans         &trans  &trans    &trans  &trans  &trans  &trans  &trans
