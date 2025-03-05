@@ -1346,9 +1346,9 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(84, 119)" class="key trans keypos-13">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(84, 119)" class="key keypos-13">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">Alt+X</text>
 </g>
 <g transform="translate(140, 91)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1362,9 +1362,9 @@ path.combo {
 <tspan x="0" dy="-0.6em">Ctl+Sft</tspan><tspan x="0" dy="1.2em">+]</tspan>
 </text>
 </g>
-<g transform="translate(252, 91)" class="key trans keypos-16">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(252, 91)" class="key keypos-16">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">Alt+A</text>
 </g>
 <g transform="translate(308, 98)" class="key trans keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

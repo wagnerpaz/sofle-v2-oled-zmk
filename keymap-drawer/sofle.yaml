@@ -258,10 +258,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+X
   - Ctl+Sft+[
   - Ctl+Sft+]
-  - {t: ▽, type: trans}
+  - Alt+A
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
