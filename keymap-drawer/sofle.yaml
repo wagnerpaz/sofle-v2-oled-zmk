@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '`'
+  - '&key_repeat'
   - TAB
   - Q
   - W
@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - ''''
+  - '`'
   - LEFT SHIFT
   - A
   - S
@@ -36,7 +36,7 @@ layers:
   - K
   - L
   - ;
-  - {t: RIGHT SHIFT, h: sticky}
+  - ''''
   - LEFT CONTROL
   - Z
   - X
@@ -44,13 +44,13 @@ layers:
   - V
   - B
   - MUTE
-  - ''
+  - Gui+Sft+`
   - N
   - M
   - ','
   - .
   - /
-  - {t: RIGHT CONTROL, h: sticky}
+  - {t: editor, h: sticky}
   - LEFT ALT
   - LEFT WIN
   - {t: DELETE, h: editor}
@@ -114,7 +114,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BACKSPACE
+  - '&bootloader'
   - {type: held}
   - '&sys_reset'
   - {t: ▽, type: trans}
@@ -130,7 +130,7 @@ layers:
   - ''
   - ''
   - '&secret_1'
-  - {t: ▽, type: trans}
+  - '&secret_2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -138,7 +138,7 @@ layers:
   - {t: ▽, type: trans}
   - INS
   - PSCRN
-  - CMENU
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -160,10 +160,10 @@ layers:
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -294,10 +294,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
