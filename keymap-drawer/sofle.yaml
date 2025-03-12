@@ -62,7 +62,7 @@ layers:
   - RIGHT GUI
   - RIGHT ALT
   lower:
-  - '&caps_word'
+  - F11
   - F1
   - F2
   - F3
