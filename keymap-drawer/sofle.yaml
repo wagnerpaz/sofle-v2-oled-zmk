@@ -43,7 +43,7 @@ layers:
   - C
   - V
   - B
-  - MUTE
+  - PLAY PAUSE
   - Gui+Sft+`
   - N
   - M
