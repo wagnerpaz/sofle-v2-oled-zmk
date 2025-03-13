@@ -32,56 +32,78 @@
         copy {
             bindings = <&kp LC(C)>;
             key-positions = <27 28>;
+            require-prior-idle-ms = <200>;
+            timeout-ms = <50>;
         };
 
         home {
             bindings = <&kp HOME>;
             key-positions = <31 32>;
+            require-prior-idle-ms = <200>;
+            timeout-ms = <50>;
         };
 
         KL-end {
             bindings = <&kp END>;
             key-positions = <32 33>;
+            require-prior-idle-ms = <200>;
+            timeout-ms = <50>;
         };
 
         ER-autocomplete {
             bindings = <&kp LC(SPACE)>;
             key-positions = <15 16>;
+            require-prior-idle-ms = <200>;
+            timeout-ms = <50>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
             key-positions = <28 29>;
+            require-prior-idle-ms = <200>;
+            timeout-ms = <50>;
         };
 
         pageup {
             bindings = <&kp PAGE_UP>;
             key-positions = <19 20>;
+            require-prior-idle-ms = <200>;
+            timeout-ms = <50>;
         };
 
         pagedown {
             bindings = <&kp PAGE_DOWN>;
             key-positions = <20 21>;
+            require-prior-idle-ms = <200>;
+            timeout-ms = <50>;
         };
 
         win_paste {
             bindings = <&kp LG(V)>;
             key-positions = <28 41>;
+            require-prior-idle-ms = <200>;
+            timeout-ms = <50>;
         };
 
         refresh {
             bindings = <&kp LC(R)>;
             key-positions = <3 4>;
+            require-prior-idle-ms = <200>;
+            timeout-ms = <50>;
         };
 
         ctrl_end {
             bindings = <&kp LC(END)>;
             key-positions = <46 47>;
+            require-prior-idle-ms = <200>;
+            timeout-ms = <50>;
         };
 
         ctrl_home {
             bindings = <&kp LC(HOME)>;
             key-positions = <45 46>;
+            require-prior-idle-ms = <200>;
+            timeout-ms = <50>;
         };
     };
 
