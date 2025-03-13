@@ -74,7 +74,7 @@ layers:
   - F9
   - F10
   - F11
-  - '`'
+  - F12
   - '!'
   - '@'
   - '#'
@@ -259,9 +259,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+X
+  - ''
   - Ctl+Sft+[
-  - Ctl+Sft+]
-  - Alt+A
+  - Sft+Ctl+]
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -271,9 +271,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&vscode_pin'
+  - '&select_line'
   - Sft+Alt+LEFT ARROW
   - Sft+Alt+RIGHT ARROW
-  - Ctl+Sft+K
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
