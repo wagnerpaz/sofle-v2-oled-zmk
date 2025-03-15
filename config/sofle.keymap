@@ -211,7 +211,9 @@
                           &trans       &trans    &bootloader       &trans             &sys_reset    &trans  &trans       &kp LC(Z)      &trans         &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp TAB LS(TAB)>;
         };
 
         raise_layer {
