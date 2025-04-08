@@ -164,6 +164,13 @@
 
             label = "SELECT_LINE";
         };
+
+        pin_1: pin_1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N5 &kp N0 &kp N0 &kp N8 &kp N6 &kp N1 &kp N5>;
+            label = "PIN_1";
+        };
     };
 
     keymap {
@@ -227,7 +234,7 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&none   &run_dev  &console_log  &none   &none   &none                           &secret_1  &secret_2    &trans    &trans         &trans   &trans
+&none   &run_dev  &console_log  &none   &none   &none                           &secret_1  &secret_2    &pin_1    &trans         &trans   &trans
 &trans  &kp INS   &kp PSCRN     &trans  &trans  &trans                          &trans     &kp PAGE_UP  &kp UP    &kp PAGE_DOWN  &trans   &trans
 &trans  &trans    &trans        &trans  &trans  &kp CLCK                        &kp HOME   &kp LEFT     &kp DOWN  &kp RIGHT      &kp END  &trans
 &trans  &trans    &trans        &trans  &trans  &trans    &trans    &trans      &trans     &trans       &trans    &trans         &trans   &trans
