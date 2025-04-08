@@ -131,7 +131,7 @@ layers:
   - ''
   - '&secret_1'
   - '&secret_2'
-  - {t: ▽, type: trans}
+  - '&pin_1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
