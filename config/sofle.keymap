@@ -171,6 +171,13 @@
             bindings = <&kp N5 &kp N0 &kp N0 &kp N8 &kp N6 &kp N1 &kp N5>;
             label = "PIN_1";
         };
+
+        vs_source_control: vs_source_control {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LS(G)) &kp G>;
+            label = "VS_SOURCE_CONTROL";
+        };
     };
 
     keymap {
@@ -264,11 +271,11 @@
 
         editor {
             bindings = <
-&trans  &trans       &trans        &trans                    &trans                     &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LA(X)    &none         &kp LC(LS(LEFT_BRACKET))  &kp LS(LC(RIGHT_BRACKET))  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &vscode_pin  &select_line  &kp LS(LA(LEFT_ARROW))    &kp LS(LA(RIGHT_ARROW))    &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans       &trans        &trans                    &trans                     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                     &trans        &trans                    &trans                     &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(LS(E))  &vs_source_control  &trans                    &trans                     &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LA(X)      &none               &kp LC(LS(LEFT_BRACKET))  &kp LS(LC(RIGHT_BRACKET))  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &vscode_pin    &select_line        &kp LS(LA(LEFT_ARROW))    &kp LS(LA(RIGHT_ARROW))    &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans              &trans                    &trans                     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                       &trans              &trans                    &trans                     &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
