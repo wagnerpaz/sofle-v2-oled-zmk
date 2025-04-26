@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '&key_repeat'
+  - Sft+LEFT ALT
   - TAB
   - Q
   - W
