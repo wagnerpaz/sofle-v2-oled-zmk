@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default:
-  - {t: ESC, s: '`'}
-  - {t: '1', h: Ctl+Alt+1}
-  - {t: '2', h: Ctl+Alt+2}
+  - ESC
+  - '1'
+  - '2'
   - '3'
   - '4'
   - '5'
