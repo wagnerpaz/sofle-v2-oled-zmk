@@ -99,7 +99,7 @@ layers:
   - )
   - '|'
   - {t: ▽, type: trans}
-  - ''
+  - Gui+Alt+SPACE
   - _
   - ''
   - '['
@@ -259,7 +259,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+X
-  - ''
+  - Ctl+Sft+K
   - Ctl+Sft+[
   - Sft+Ctl+]
   - {t: ▽, type: trans}
@@ -285,7 +285,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
