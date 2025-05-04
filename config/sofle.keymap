@@ -218,11 +218,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp F11  &kp F1           &kp F2       &kp F3    &kp F4            &kp F5                                   &kp F6       &kp F7         &kp F8         &kp F9                &kp F10                &kp F11
-&kp F12  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR        &kp PERCENT                              &kp CARET    &kp AMPERSAND  &kp ASTRK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F12
-&trans   &kp EQUAL        &kp MINUS    &kp PLUS  &kp LEFT_BRACE    &kp RIGHT_BRACE                          &kp CARET    &kp AMPS       &kp ASTERISK   &kp LPAR              &kp RPAR               &kp PIPE
-&trans   &none            &kp UNDER    &none     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans        &trans  &arrow_func  &none          &kp SEMICOLON  &kp COLON             &kp BSLH               &trans
-                          &trans       &trans    &bootloader       &trans             &sys_reset    &trans  &trans       &kp LC(Z)      &trans         &trans
+&kp F11  &kp F1             &kp F2       &kp F3    &kp F4            &kp F5                                   &kp F6       &kp F7         &kp F8         &kp F9                &kp F10                &kp F11
+&kp F12  &kp EXCLAMATION    &kp AT_SIGN  &kp HASH  &kp DOLLAR        &kp PERCENT                              &kp CARET    &kp AMPERSAND  &kp ASTRK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F12
+&trans   &kp EQUAL          &kp MINUS    &kp PLUS  &kp LEFT_BRACE    &kp RIGHT_BRACE                          &kp CARET    &kp AMPS       &kp ASTERISK   &kp LPAR              &kp RPAR               &kp PIPE
+&trans   &kp LG(LA(SPACE))  &kp UNDER    &none     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans        &trans  &arrow_func  &none          &kp SEMICOLON  &kp COLON             &kp BSLH               &trans
+                            &trans       &trans    &bootloader       &trans             &sys_reset    &trans  &trans       &kp LC(Z)      &trans         &trans
             >;
 
             sensor-bindings =
@@ -272,9 +272,9 @@
         editor {
             bindings = <
 &trans  &kp LC(LS(E))  &vs_source_control  &trans                    &trans                     &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LA(X)      &none               &kp LC(LS(LEFT_BRACKET))  &kp LS(LC(RIGHT_BRACKET))  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LA(X)      &kp LC(LS(K))       &kp LC(LS(LEFT_BRACKET))  &kp LS(LC(RIGHT_BRACKET))  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &vscode_pin    &select_line        &kp LS(LA(LEFT_ARROW))    &kp LS(LA(RIGHT_ARROW))    &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans              &trans                    &trans                     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans              &trans                    &kp LS(F12)                &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                        &trans              &trans                    &trans                     &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
