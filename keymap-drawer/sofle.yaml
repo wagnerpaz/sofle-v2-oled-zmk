@@ -92,22 +92,22 @@ layers:
   - +
   - '{'
   - '}'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '|'
   - {t: ▽, type: trans}
   - Gui+Alt+SPACE
   - _
-  - ''
+  - '&arrow_func'
   - '['
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&arrow_func'
-  - ''
+  - (
+  - )
   - ;
   - ':'
   - \
