@@ -98,7 +98,7 @@ layers:
   - ''
   - ''
   - '|'
-  - {t: ▽, type: trans}
+  - Ctl+Alt+SPACE
   - Gui+Alt+SPACE
   - _
   - '&arrow_func'
@@ -328,3 +328,5 @@ combos:
   k: Ctl+END
 - p: [45, 46]
   k: Ctl+HOME
+- p: [39, 40]
+  k: Ctl+Sft+K
