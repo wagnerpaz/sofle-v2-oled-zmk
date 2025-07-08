@@ -245,7 +245,7 @@ layers:
   - ''
   - ''
   editor:
-  - {t: ▽, type: trans}
+  - Ctl+`
   - Ctl+Sft+E
   - '&vs_source_control'
   - {t: ▽, type: trans}
