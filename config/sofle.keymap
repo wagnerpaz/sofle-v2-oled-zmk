@@ -296,8 +296,22 @@
 &kp TAB    &kp Q   &kp W     &kp E   &kp R   &kp T                         &trans  &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &kp A   &kp S     &kp D   &kp F   &kp G                         &trans  &trans  &trans  &trans  &trans  &trans
 &kp LCTRL  &kp Z   &kp X     &kp C   &kp V   &kp B      &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                   &kp LALT  &trans  &trans  &kp SPACE  &kp RET    &trans  &trans  &trans  &trans  &trans
+                   &kp LALT  &mo 6   &trans  &kp SPACE  &kp RET    &trans  &trans  &trans  &trans  &trans
             >;
+
+            label = "one-hand";
+        };
+
+        Right-Hand {
+            bindings = <
+&kp LCTRL  &kp N6  &kp N7  &kp N8     &kp N9   &kp N0                      &trans  &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp Y   &kp U   &kp I      &kp O    &kp P                       &trans  &trans  &trans  &trans  &trans  &trans
+&kp DOT    &kp H   &kp J   &kp K      &kp L    &kp SEMI                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                   &trans  &trans     &trans   &trans    &trans    &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "right-hand";
         };
     };
 };
