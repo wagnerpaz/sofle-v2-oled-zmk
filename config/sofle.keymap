@@ -113,22 +113,30 @@
 
         vscode_unfold_all {
             bindings = <&vscode_unfold_all>;
-            key-positions = <13 14 13>;
+            key-positions = <2 1>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <200>;
         };
 
         vscode_fold_all {
             bindings = <&vscode_fold_all>;
-            key-positions = <16 17>;
+            key-positions = <4 5>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <200>;
         };
 
         vscode_unfold {
             bindings = <&kp LC(LS(RIGHT_BRACKET))>;
-            key-positions = <14 15>;
+            key-positions = <2 3>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <200>;
         };
 
         vscode_fold {
             bindings = <&kp LC(LS(LEFT_BRACKET))>;
-            key-positions = <15 16>;
+            key-positions = <3 4>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <200>;
         };
     };
 
