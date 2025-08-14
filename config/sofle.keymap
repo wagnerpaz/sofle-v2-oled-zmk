@@ -110,6 +110,26 @@
             bindings = <&kp LC(LS(K))>;
             key-positions = <39 40>;
         };
+
+        vscode_unfold_all {
+            bindings = <&vscode_unfold_all>;
+            key-positions = <13 14 13>;
+        };
+
+        vscode_fold_all {
+            bindings = <&vscode_fold_all>;
+            key-positions = <16 17>;
+        };
+
+        vscode_unfold {
+            bindings = <&kp LC(LS(RIGHT_BRACKET))>;
+            key-positions = <14 15>;
+        };
+
+        vscode_fold {
+            bindings = <&kp LC(LS(LEFT_BRACKET))>;
+            key-positions = <15 16>;
+        };
     };
 
     macros {
@@ -182,6 +202,20 @@
             #binding-cells = <0>;
             bindings = <&kp LC(LS(G)) &kp G>;
             label = "VS_SOURCE_CONTROL";
+        };
+
+        vscode_fold_all: vscode_fold_all {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(K) &kp LC(NUMBER_0)>;
+            label = "VSCODE_FOLD_ALL";
+        };
+
+        vscode_unfold_all: vscode_unfold_all {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(K) &kp LC(J)>;
+            label = "VSCODE_UNFOLD_ALL";
         };
     };
 
@@ -279,7 +313,7 @@
 &kp LC(GRAVE)  &kp LC(LS(E))  &vs_source_control  &trans                    &trans                     &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans         &kp LA(X)      &kp LC(LS(K))       &kp LC(LS(LEFT_BRACKET))  &kp LS(LC(RIGHT_BRACKET))  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans         &vscode_pin    &select_line        &kp LS(LA(LEFT_ARROW))    &kp LS(LA(RIGHT_ARROW))    &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans         &trans         &trans              &trans                    &kp LS(F12)                &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LG(H)      &trans         &trans              &trans                    &kp LS(F12)                &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                               &trans              &trans                    &trans                     &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
