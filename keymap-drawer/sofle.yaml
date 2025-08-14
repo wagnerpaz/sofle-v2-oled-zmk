@@ -452,11 +452,11 @@ combos:
   k: Ctl+HOME
 - p: [39, 40]
   k: Ctl+Sft+K
-- p: [13, 14, 13]
+- p: [2, 1]
   k: '&vscode_unfold_all'
-- p: [16, 17]
+- p: [4, 5]
   k: '&vscode_fold_all'
-- p: [14, 15]
+- p: [2, 3]
   k: Ctl+Sft+]
-- p: [15, 16]
+- p: [3, 4]
   k: Ctl+Sft+[
