@@ -281,7 +281,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+H
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -452,3 +452,11 @@ combos:
   k: Ctl+HOME
 - p: [39, 40]
   k: Ctl+Sft+K
+- p: [13, 14, 13]
+  k: '&vscode_unfold_all'
+- p: [16, 17]
+  k: '&vscode_fold_all'
+- p: [14, 15]
+  k: Ctl+Sft+]
+- p: [15, 16]
+  k: Ctl+Sft+[

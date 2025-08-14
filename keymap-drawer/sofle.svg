@@ -449,6 +449,26 @@ path.combo {
 <tspan x="224" dy="-0.6em">Ctl+Sft</tspan><tspan x="224" dy="1.2em">+K</tspan>
 </text>
 </g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="89" y="97" width="28" height="26" class="combo"/>
+<text x="103" y="110" class="combo tap"><tspan style="font-size: 64%">&amp;vscode_un…</tspan></text>
+</g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="266" y="82" width="28" height="26" class="combo"/>
+<text x="280" y="94" class="combo tap"><tspan style="font-size: 64%">&amp;vscode_fo…</tspan></text>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
+<text x="168" y="88" class="combo tap">
+<tspan x="168" dy="-0.6em">Ctl+Sft</tspan><tspan x="168" dy="1.2em">+]</tspan>
+</text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
+<text x="224" y="88" class="combo tap">
+<tspan x="224" dy="-0.6em">Ctl+Sft</tspan><tspan x="224" dy="1.2em">+[</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 398)" class="layer-lower">
@@ -753,6 +773,26 @@ path.combo {
 <tspan x="224" dy="-0.6em">Ctl+Sft</tspan><tspan x="224" dy="1.2em">+K</tspan>
 </text>
 </g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="89" y="97" width="28" height="26" class="combo"/>
+<text x="103" y="110" class="combo tap"><tspan style="font-size: 64%">&amp;vscode_un…</tspan></text>
+</g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="266" y="82" width="28" height="26" class="combo"/>
+<text x="280" y="94" class="combo tap"><tspan style="font-size: 64%">&amp;vscode_fo…</tspan></text>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
+<text x="168" y="88" class="combo tap">
+<tspan x="168" dy="-0.6em">Ctl+Sft</tspan><tspan x="168" dy="1.2em">+]</tspan>
+</text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
+<text x="224" y="88" class="combo tap">
+<tspan x="224" dy="-0.6em">Ctl+Sft</tspan><tspan x="224" dy="1.2em">+[</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 795)" class="layer-raise">
@@ -1055,6 +1095,26 @@ path.combo {
 <tspan x="224" dy="-0.6em">Ctl+Sft</tspan><tspan x="224" dy="1.2em">+K</tspan>
 </text>
 </g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="89" y="97" width="28" height="26" class="combo"/>
+<text x="103" y="110" class="combo tap"><tspan style="font-size: 64%">&amp;vscode_un…</tspan></text>
+</g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="266" y="82" width="28" height="26" class="combo"/>
+<text x="280" y="94" class="combo tap"><tspan style="font-size: 64%">&amp;vscode_fo…</tspan></text>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
+<text x="168" y="88" class="combo tap">
+<tspan x="168" dy="-0.6em">Ctl+Sft</tspan><tspan x="168" dy="1.2em">+]</tspan>
+</text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
+<text x="224" y="88" class="combo tap">
+<tspan x="224" dy="-0.6em">Ctl+Sft</tspan><tspan x="224" dy="1.2em">+[</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1193)" class="layer-adjust">
@@ -1320,6 +1380,26 @@ path.combo {
 <tspan x="224" dy="-0.6em">Ctl+Sft</tspan><tspan x="224" dy="1.2em">+K</tspan>
 </text>
 </g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="89" y="97" width="28" height="26" class="combo"/>
+<text x="103" y="110" class="combo tap"><tspan style="font-size: 64%">&amp;vscode_un…</tspan></text>
+</g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="266" y="82" width="28" height="26" class="combo"/>
+<text x="280" y="94" class="combo tap"><tspan style="font-size: 64%">&amp;vscode_fo…</tspan></text>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
+<text x="168" y="88" class="combo tap">
+<tspan x="168" dy="-0.6em">Ctl+Sft</tspan><tspan x="168" dy="1.2em">+]</tspan>
+</text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
+<text x="224" y="88" class="combo tap">
+<tspan x="224" dy="-0.6em">Ctl+Sft</tspan><tspan x="224" dy="1.2em">+[</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1590)" class="layer-editor">
@@ -1481,9 +1561,9 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(28, 231)" class="key trans keypos-36">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(28, 231)" class="key keypos-36">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">Gui+H</text>
 </g>
 <g transform="translate(84, 231)" class="key trans keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1632,6 +1712,26 @@ path.combo {
 <rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
 <text x="224" y="200" class="combo tap">
 <tspan x="224" dy="-0.6em">Ctl+Sft</tspan><tspan x="224" dy="1.2em">+K</tspan>
+</text>
+</g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="89" y="97" width="28" height="26" class="combo"/>
+<text x="103" y="110" class="combo tap"><tspan style="font-size: 64%">&amp;vscode_un…</tspan></text>
+</g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="266" y="82" width="28" height="26" class="combo"/>
+<text x="280" y="94" class="combo tap"><tspan style="font-size: 64%">&amp;vscode_fo…</tspan></text>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
+<text x="168" y="88" class="combo tap">
+<tspan x="168" dy="-0.6em">Ctl+Sft</tspan><tspan x="168" dy="1.2em">+]</tspan>
+</text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
+<text x="224" y="88" class="combo tap">
+<tspan x="224" dy="-0.6em">Ctl+Sft</tspan><tspan x="224" dy="1.2em">+[</tspan>
 </text>
 </g>
 </g>
@@ -1939,6 +2039,26 @@ path.combo {
 <tspan x="224" dy="-0.6em">Ctl+Sft</tspan><tspan x="224" dy="1.2em">+K</tspan>
 </text>
 </g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="89" y="97" width="28" height="26" class="combo"/>
+<text x="103" y="110" class="combo tap"><tspan style="font-size: 64%">&amp;vscode_un…</tspan></text>
+</g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="266" y="82" width="28" height="26" class="combo"/>
+<text x="280" y="94" class="combo tap"><tspan style="font-size: 64%">&amp;vscode_fo…</tspan></text>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
+<text x="168" y="88" class="combo tap">
+<tspan x="168" dy="-0.6em">Ctl+Sft</tspan><tspan x="168" dy="1.2em">+]</tspan>
+</text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
+<text x="224" y="88" class="combo tap">
+<tspan x="224" dy="-0.6em">Ctl+Sft</tspan><tspan x="224" dy="1.2em">+[</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 2385)" class="layer-right-hand">
@@ -2239,6 +2359,26 @@ path.combo {
 <rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
 <text x="224" y="200" class="combo tap">
 <tspan x="224" dy="-0.6em">Ctl+Sft</tspan><tspan x="224" dy="1.2em">+K</tspan>
+</text>
+</g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="89" y="97" width="28" height="26" class="combo"/>
+<text x="103" y="110" class="combo tap"><tspan style="font-size: 64%">&amp;vscode_un…</tspan></text>
+</g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="266" y="82" width="28" height="26" class="combo"/>
+<text x="280" y="94" class="combo tap"><tspan style="font-size: 64%">&amp;vscode_fo…</tspan></text>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
+<text x="168" y="88" class="combo tap">
+<tspan x="168" dy="-0.6em">Ctl+Sft</tspan><tspan x="168" dy="1.2em">+]</tspan>
+</text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
+<text x="224" y="88" class="combo tap">
+<tspan x="224" dy="-0.6em">Ctl+Sft</tspan><tspan x="224" dy="1.2em">+[</tspan>
 </text>
 </g>
 </g>
